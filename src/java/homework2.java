@@ -10,10 +10,10 @@ public class homework2 {
         System.out.println("Enter the height");
         Scanner h = new Scanner(System.in);
         int height = h.nextInt();
-        System.out.printf("width = %d\nHeight = %d",width, height);
+        System.out.printf("width = %d\nHeight = %d ",width, height);
         final int perimeter = 2 * (width + height);
-        System.out.printf("perimeter = %d",perimeter); //S = a x b
+        System.out.printf("\nperimeter = %d ",perimeter); //S = a x b
         final int square = width * height;
-        System.out.printf("square = %d",square);
+        System.out.printf("\nsquare = %d ",square);
     }
 }
