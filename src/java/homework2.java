@@ -15,5 +15,6 @@ public class homework2 {
         System.out.printf("perimeter = %d",perimeter); //S = a x b
         final int square = width * height;
         System.out.printf("square = %d",square);
+
     }
 }
